@@ -1,0 +1,43 @@
+.star-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.star {
+    position: relative;
+    user-select: none;
+    font-size: 30px;
+}
+.star-rating {
+    font-size: 20px;
+    margin-left: 10px;
+}
+.partial-star {
+    position: absolute;
+    left: 0;
+    top: 0;
+    align-self: flex-start;
+    overflow: hidden;
+    width: 0%;
+    color: gold;
+}
+.star-filled::before {
+    content: '★';
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: gold;
+}
+.input_holder {
+    text-align: center;
+}
+.range_input {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .range_input {width: 50%};
+}
