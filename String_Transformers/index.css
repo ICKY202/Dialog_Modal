@@ -1,0 +1,39 @@
+.app {
+    background-color: aquamarine;
+}
+.container {
+    text-align: center;
+    margin: auto;
+}
+#user_sentence {
+    width: 94%;
+    margin-bottom: 1.6rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+.transformers {
+    width: 94%;
+    text-align: left;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.transformers div {
+    background-color: orange;
+    padding: 1.6rem;
+    margin: 10px 0;
+    position: relative; 
+}
+.transformers div label {
+    position: absolute;
+    top: -.6rem;
+    left: 1rem;
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+
+
